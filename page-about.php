@@ -57,10 +57,12 @@ get_header();
           <?php the_field('references'); ?>
         </ul>
       </div>
-      <h2><?php the_field('title_2'); ?></h2>
-      <?php the_field('text_2'); ?>
+    </div>
 
       <div class="row">
+        <h2><?php the_field('title_2'); ?></h2>
+        <?php the_field('text_2'); ?>
+        
         <?php
           $country_args = ( array(
             'post_type' => 'country',

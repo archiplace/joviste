@@ -578,6 +578,14 @@ section {
     font-size: 14px;
 }
 
+.nav.navbar-nav.navbar-right {
+	margin-top: 10px;
+}
+
+.nav>li>a {
+	padding: 10px;
+}
+
 .dropdown-menu>li>a {
     font-size: 12px;
 }
@@ -602,7 +610,8 @@ ul.dropdown-menu li:hover {
     background-color: #f5f5f5;
 }
 
-ul.dropdown-menu li.active a {
+ul.dropdown-menu li.active a,
+ul.dropdown-menu li.active a:hover {
 	background-color: #333333;
 	color: #fff;
 }
