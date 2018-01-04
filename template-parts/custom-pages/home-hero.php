@@ -21,7 +21,7 @@ $picture_3 = get_field('picture_3');
             <div class="col-xs-3"><img src="<?php echo $picture_3['url']; ?>" alt="<?php echo $picture_3['alt']; ?>" class="img-responsive center-block"></div>
           </div>
           <p>
-            <a href="kontakt.html" class="btn btn-lg btn-danger" role="button"><?php the_field ('button'); ?></a>
+            <a href="<?php the_field('button_link'); ?>" class="btn btn-lg btn-danger" role="button"><?php the_field ('button'); ?></a>
           </p>
         </div>
       </div>

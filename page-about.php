@@ -6,7 +6,7 @@ Template Name: About Page
 get_header();
 ?>
 
-<?php get_template_part('template-parts/page-parts/page', 'header') ?>
+<?php get_template_part('template-parts/page-parts/page', 'header'); ?>
 
 <section>
   <div class="container">
