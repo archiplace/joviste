@@ -583,7 +583,7 @@ section {
 }
 
 .nav>li>a {
-	padding: 10px 5px;
+	padding: 10px 7px;
 }
 
 .dropdown-menu>li>a {
@@ -763,4 +763,9 @@ thead {
     -webkit-filter: opacity(60%);
     filter: opacity(60%);
 
+}
+
+.wp-caption-text.gallery-caption {
+  font-size: 14px;
+  background: transparent;
 }

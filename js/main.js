@@ -27,4 +27,15 @@ $(function() {
 
   });
 
+  // changing gallery items title
+  // function changeGaleryItemTitle() {
+  //   alert('it works!!!');
+  // }
+
+  // Change title in Clasic panels
+  // if( $('.classic-panels')[0] ) {
+  //   changeGaleryItemTitle();
+  // }  
+
 });
+
